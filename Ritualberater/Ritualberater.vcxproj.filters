@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{f2214030-ba84-4037-b6c8-2b2ef3656c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{e9ca7109-72ab-4bb5-ad6a-2437fb4fce2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\runetree">
+      <UniqueIdentifier>{52531ebd-6fee-425a-9367-292760280194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\runetree">
+      <UniqueIdentifier>{89f37c18-8634-44d6-8875-67e653891b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\view">
+      <UniqueIdentifier>{883e6122-7373-454f-9832-abc5c92ac58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\view">
+      <UniqueIdentifier>{2e0a1a15-14c3-4937-ad44-fa5970edf898}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Ritualberater.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Ritualberater.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtMoc Include="Ritualberater.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="Ritualberater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuneNode.cpp">
+      <Filter>Source Files\model\runetree</Filter>
+    </ClCompile>
+    <ClCompile Include="RuneLeaf.cpp">
+      <Filter>Source Files\model\runetree</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractRuneNode.cpp">
+      <Filter>Source Files\model\runetree</Filter>
+    </ClCompile>
+    <ClCompile Include="RuneNodeOperations.cpp">
+      <Filter>Source Files\model\runetree</Filter>
+    </ClCompile>
+    <ClCompile Include="RuneTreeModel.cpp">
+      <Filter>Source Files\model\runetree</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterWidget.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="RunenZeichnenWidget.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="RitualWidget.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RuneNode.h">
+      <Filter>Header Files\model\runetree</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractRuneNode.h">
+      <Filter>Header Files\model\runetree</Filter>
+    </ClInclude>
+    <ClInclude Include="RuneLeaf.h">
+      <Filter>Header Files\model\runetree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="RuneTreeModel.h">
+      <Filter>Header Files\model\runetree</Filter>
+    </QtMoc>
+    <QtMoc Include="CharacterWidget.h">
+      <Filter>Header Files\view</Filter>
+    </QtMoc>
+    <QtMoc Include="RunenZeichnenWidget.h">
+      <Filter>Header Files\view</Filter>
+    </QtMoc>
+    <QtMoc Include="RitualWidget.h">
+      <Filter>Header Files\view</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="CharacterWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RunenZeichnenWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RitualWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
